@@ -5,7 +5,6 @@ import { BiChevronLeft, BiChevronRight } from 'react-icons/bi'
 const Carousel = ({project, children, 
     autoSlide=false, 
     autoSlideInterval=2000}) => {
-
     const [curr, setCurr] = useState(0);
 
   const prev = () =>

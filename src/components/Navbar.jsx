@@ -19,13 +19,13 @@ const Navbar = () => {
             <a href="#" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Home</a>
         </li>
         <li>
-            <a href="#" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Tech</a>
+            <a href="#tech" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Tech</a>
         </li>
         <li>
-            <a href="#" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Project</a>
+            <a href="#projects" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Project</a>
         </li>
         <li>
-            <a href="#" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Contact</a>
+            <a href="#contact" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Contact</a>
         </li>
       </ul>
       <ul className='hidden md:flex gap-5'>

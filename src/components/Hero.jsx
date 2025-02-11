@@ -18,10 +18,10 @@ const Hero = () => {
             initial={{y: 50, opacity: 0}}
             animate={{y: 0, opacity: 1}}
             transition={{duration: 0.8, delay: 0.2}}
-            className="flex max-w-[600px] flex-col items-center justify-center gap-3 text-center">
+            className="flex max-w-[800px] flex-col items-center justify-center gap-3 text-center">
                 <h1 className='bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl font-light md:text-7xl'>Aderombi Sheriff</h1>
                 <h3 className='bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl font-light md:text-3xl'>Web Developer</h3>
-                <p className='md:text-base text-pretty text-sm text-gray-400'>I'm a dedicated Frontend Developer skilled in React, JavaScript, Tailwind CSS, React Router, and Redux Toolkit. I enjoy crafting interactive and visually appealing web applications that deliver seamless user experiences. With a keen eye for detail and a solid foundation in modern frontend tools and practices, I focus on writing clean, efficient code and bringing designs to life. I’m passionate about continuous learning and staying updated with the latest trends in web development to create innovative solutions.</p>
+                <p className='md:text-base text-pretty text-sm leading text-gray-400'>I'm a dedicated Frontend Developer skilled in React, JavaScript and TypeScript. I also have adept knowledge in JavaScript/React Libraries like Redux Toolkit, React Router and Axios. I enjoy crafting interactive and visually appealing web applications that deliver seamless user experiences. I also enjoy brainstorming on the implementation of new functionalities. With a keen eye for detail and a solid foundation in modern frontend tools and practices, I focus on writing clean, efficient code and bringing designs to life. I’m passionate about continuous learning and staying updated with the latest trends in web development to create innovative solutions.</p>
             </motion.div>
         </div>
     </div>

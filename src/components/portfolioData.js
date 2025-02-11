@@ -11,12 +11,20 @@ import udemy3 from '../images/udemy-3.png'
 import udemy4 from '../images/udemy-4.png'
 import udemy5 from '../images/udemy-5.png'
 
+import ciya1 from '../images/ciya-1.png';
+import ciya11 from '../images/ciya11.png';
+import ciya2 from '../images/ciya-2.png';
+import ciya3 from '../images/ciya-3.png';
+import ciya4 from '../images/ciya-4.png';
+import ciya5 from '../images/ciya-5.png';
+import ciya6 from '../images/ciya-6.png';
+
 export const projectsData = [
     {
         cover: moiveo6,
         image: [moiveo1, moiveo2, moiveo3, moiveo4, moiveo5, moiveo6],
         title: "Moiveo: Your One-Stop for TV Entertainment",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ducimus voluptatum voluptatem saepe quos qui! Fugiat unde velit dicta.",
+        description: "Moiveo is strictly for the movie/tv-show lovers. Moiveo relies heavily on the TMDB API. It showcase my ability to work deeply with data from an API—fetching, manipulating, and displaying it dynamically on the UI. I focused on crafting a fully responsive design, making sure the UI adapts smoothly to any screen size. I used Redux Toolkit for efficient state management, ensuring seamless data flow across the application. React Router came in handy for seamless navigation.",
         technologies: ["Tailwind", "React", "Axios"],
         demo: "https://moiveo-app.netlify.app/",
         github: "https://github.com/shiffydeen/Movie-App"
@@ -26,24 +34,19 @@ export const projectsData = [
     {
         cover: udemy1,
         image: [udemy2, udemy3, udemy4, udemy5],
-        title: "Udemy Clone - Extra Features",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ducimus voluptatum voluptatem saepe quos qui! Fugiat unde velit dicta.",
+        title: "Udemy Clone - Custom Features Added",
+        description: "This Udemy clone mainly displays my ability to implement functionalities and component reusability. In this project, I added the Hoverable Cart Component, Dynamic Course Filtering, Toast Notification for item added and many more features. This project reflects my ability to bring practical, high-quality solutions to real-world web applications. I also displayed my ability to write Vanilla CSS, using Styles Components. Interact with the the Live Demo to get a better feel of these functionalities.",
         technologies: ["Tailwind", "React"],
         demo: "https://cdemy-upgrade.netlify.app/",
         github: "https://github.com/shiffydeen/udemy-clone"
     },
     {
-        cover: moiveo1,
-        image: [moiveo1, moiveo2, moiveo3, moiveo4, moiveo5, moiveo6],
-        title: "Holiday Booking",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ducimus voluptatum voluptatem saepe quos qui! Fugiat unde velit dicta.",
-        technologies: ["HTML", "CSS", "Javascript", "MySQL"]
-    },
-    {
-        cover: moiveo1,
-        image: [moiveo1, moiveo2, moiveo3, moiveo4, moiveo5, moiveo6],
-        title: "Weather App",
-        description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, ducimus voluptatum voluptatem saepe quos qui! Fugiat unde velit dicta.",
-        technologies: ["HTML", "CSS", "Javascript", "MySQL"]
+        cover: ciya1,
+        image: [ciya11, ciya2, ciya3, ciya6, ciya4, ciya5],
+        title: "Ciya Trips - Exploration Made Easy",
+        description: "Ciya Trips is a Travel Agency company that takes away the hassle of trip planning. This project displays my ability to design beautiful, interactive and responsive UI to keep the visitor engaged. This project served as an opportunity to show Typescript skill. Seamless multi-page navigation was achieved using the React Router library. Other libraries were also used to achieve interactivity.",
+        technologies: ["Tailwind", "React", "TypeScript"],
+        demo: "https://ciyaexploration.netlify.app/",
+        github: "https://github.com/shiffydeen/Ciya-Trips"
     },
 ]

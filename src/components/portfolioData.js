@@ -35,8 +35,8 @@ export const projectsData = [
         cover: udemy1,
         image: [udemy2, udemy3, udemy4, udemy5],
         title: "Udemy Clone - Custom Features Added",
-        description: "This Udemy clone mainly displays my ability to implement functionalities and component reusability. In this project, I added the Hoverable Cart Component, Dynamic Course Filtering, Toast Notification for item added and many more features. This project reflects my ability to bring practical, high-quality solutions to real-world web applications. I also displayed my ability to write Vanilla CSS, using Styles Components. Interact with the the Live Demo to get a better feel of these functionalities.",
-        technologies: ["Tailwind", "React"],
+        description: "This Udemy clone mainly displays my ability to implement functionalities and component reusability. In this project, I added the Hoverable Cart Component, Dynamic Course Filtering, Toast Notification for item added and many more features. This project reflects my ability to bring practical, high-quality solutions to real-world web applications. Took a step back from TailwindCSS and used the Styled Component library for styling. Interact with the the Live Demo to get a better feel of these functionalities.",
+        technologies: ["CSS", "React"],
         demo: "https://cdemy-upgrade.netlify.app/",
         github: "https://github.com/shiffydeen/udemy-clone"
     },
@@ -44,7 +44,7 @@ export const projectsData = [
         cover: ciya1,
         image: [ciya11, ciya2, ciya3, ciya6, ciya4, ciya5],
         title: "Ciya Trips - Exploration Made Easy",
-        description: "Ciya Trips is a Travel Agency company that takes away the hassle of trip planning. This project displays my ability to design beautiful, interactive and responsive UI to keep the visitor engaged. This project served as an opportunity to show Typescript skill. Seamless multi-page navigation was achieved using the React Router library. Other libraries were also used to achieve interactivity.",
+        description: "Ciya Trips is a Travel Agency that takes away the hassle of trip planning. This project displays my ability to design beautiful, interactive and responsive UI to keep the visitor engaged. This project served as an opportunity to show Typescript skill. Seamless multi-page navigation was achieved using the React Router library. Other libraries were also used to achieve interactivity.",
         technologies: ["Tailwind", "React", "TypeScript"],
         demo: "https://ciyaexploration.netlify.app/",
         github: "https://github.com/shiffydeen/Ciya-Trips"

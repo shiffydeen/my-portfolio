@@ -8,7 +8,7 @@ const Modal = ({closeModal, project}) => {
 
   return (
     <div className='fixed top-0 left-0 z-10 w-full h-full bg-gray-300 bg-opacity-70 flex items-center justify-center'>
-      <div className='[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] w-[75vw] h-auto rounded-2xl p-10 overflow-y-auto'>
+      <div className='[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] mx-4 h-[80vh] w-full md:w-[75vw] md:h-auto rounded-2xl p-10 overflow-y-auto'>
         <div className='flex justify-between text-white border-gray-400 border-b pb-2 mb-5'>
             <span>About Project</span>
             <button onClick={closeModal}>

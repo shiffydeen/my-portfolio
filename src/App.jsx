@@ -11,14 +11,18 @@ function App() {
 
   const [modalOpen, setModalOpen] = useState(false)
   const [modalProject, setModalProject] = useState("")
+  const [showModal, setShowModal] = useState(false)
 
   const openModal = (project) => {
     setModalProject(project)
     setModalOpen(true)
+    setTimeout(() => setShowModal(true), 10)
+    // setTimeout(() => setModalOpen(true), 10)
   }
 
   const closeModal = () => {
-    setModalOpen(false)
+    setShowModal(false)
+    setTimeout(() => setModalOpen(false), 1000);
   }
 
 
@@ -32,7 +36,7 @@ function App() {
       <Tech />
       <Projects openModal={openModal}/>
       <Contact />
-      {modalOpen && <Modal closeModal={closeModal} project={modalProject}/>}
+      {modalOpen && <Modal closeModal={closeModal} project={modalProject} modalOpen={modalOpen} showModal={showModal}/>}
     </main>
     </>
   )

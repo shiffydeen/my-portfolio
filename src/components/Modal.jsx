@@ -4,11 +4,11 @@ import Carousel from './Carousel';
 import { BsGithub } from 'react-icons/bs';
 
 
-const Modal = ({closeModal, project}) => {
+const Modal = ({closeModal, project, showModal}) => {
 
   return (
-    <div className='fixed top-0 left-0 z-10 w-full h-full bg-gray-300 bg-opacity-70 flex items-center justify-center'>
-      <div className='[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] mx-4 h-[80vh] w-full md:w-[75vw] md:h-auto rounded-2xl p-10 overflow-y-auto'>
+    <div className={`fixed top-0 left-0 z-10 w-full h-full bg-gray-300 bg-opacity-70 items-center justify-center flex transition-all duration-1000 ${showModal ? 'opacity-100' : 'opacity-0'}`}>
+      <div className={`[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] mx-4 h-[80vh] w-full md:w-[75vw] md:h-auto rounded-2xl p-10 overflow-y-auto transition-all duration-1000 ${showModal ? 'opacity-100 scale-100' : 'opacity-0 scale-90 invisible'}`}>
         <div className='flex justify-between text-white border-gray-400 border-b pb-2 mb-5'>
             <span>About Project</span>
             <button onClick={closeModal}>
@@ -19,7 +19,7 @@ const Modal = ({closeModal, project}) => {
           <div className='text-white p-5 flex-1 self-center'>
             <Carousel autoSlide={true} autoSlideInterval={3000} project={project}>
               {project.image.map((image, index) => (
-                <img key={index} src={image} alt="" />
+                <img key={index} src={image} alt=""/>
               ))}
             </Carousel>
           </div>
@@ -57,6 +57,7 @@ const Modal = ({closeModal, project}) => {
     </div>
   )
 }
+
 
 export default Modal
 

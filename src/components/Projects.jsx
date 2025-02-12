@@ -22,7 +22,9 @@ const ProjectCard = ({project, openModal}) => {
                 <img src={project.cover} alt="" className='w-4/5 cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]' onClick={() => {openModal(project)}}/>
                 <div className='flex flex-col gap-5'>
                     <div className='flex flex-col gap-3 items-start'>
-                        <div className='text-xl font-semibold cursor-pointer' onClick={() => openModal(project)}>{project.title}</div>
+                        <div className='text-xl font-semibold cursor-pointer' onClick={() => openModal(project)}>
+                            {project.title}
+                        </div>
                         <p className='text-gray-400 line-clamp-2'>{`${project.description}...`}</p>
                         <button className="[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] p-3 rounded-md text-white font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out border-2 border-transparent hover:border-[#63e]" onClick={() => openModal(project)}>Project Info</button>
                     </div>

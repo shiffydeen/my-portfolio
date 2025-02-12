@@ -24,7 +24,7 @@ export const projectsData = [
         cover: moiveo6,
         image: [moiveo1, moiveo2, moiveo3, moiveo4, moiveo5, moiveo6],
         title: "Moiveo: Your One-Stop for TV Entertainment",
-        description: "Moiveo is strictly for the movie/tv-show lovers. Moiveo relies heavily on the TMDB API. It showcase my ability to work deeply with data from an API—fetching, manipulating, and displaying it dynamically on the UI. I focused on crafting a fully responsive design, making sure the UI adapts smoothly to any screen size. I used Redux Toolkit for efficient state management, ensuring seamless data flow across the application. React Router came in handy for seamless navigation.",
+        description: "Moiveo is strictly for the movie/tv-show lovers. Moiveo relies heavily on the TMDB API. It showcases my ability to work deeply with data from an API—fetching, manipulating, and displaying it dynamically on the UI. I focused on crafting a fully responsive design, making sure the UI adapts smoothly to any screen size. I used Redux Toolkit for efficient state management, ensuring seamless data flow across the application. React Router came in handy for seamless navigation.",
         technologies: ["Tailwind", "React", "Axios"],
         demo: "https://moiveo-app.netlify.app/",
         github: "https://github.com/shiffydeen/Movie-App"

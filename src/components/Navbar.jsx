@@ -50,7 +50,7 @@ const Navbar = () => {
         )}
 
         
-            <div className={`fixed ${isOpen ? 'right-0' : '-right-full'} top-[84px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-1 border-gray-800 bg-black/90 p-12 transition-all duration-1000`}>
+            <div className={`fixed ${isOpen ? 'right-0' : '-right-full'} top-[84px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-1 border-gray-800 bg-black/90 p-12 transition-all duration-700`}>
                 <ul className='flex flex-col gap-8'>
                     <li>
                         <a href="#" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Home</a>

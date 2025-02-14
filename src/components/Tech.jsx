@@ -10,7 +10,7 @@ const Tech = () => {
     }
 
   return (
-    <div id='tech' className='flex min-h-[20vh] w-full flex-col items-center justify-center gap-12 md:gap-24'>
+    <div id='tech' className='flex min-h-[20vh] w-full flex-col items-center justify-center gap-12 md:gap-12'>
         <motion.h1 
         variants={variants}
         initial="hidden"

@@ -24,7 +24,7 @@ export const projectsData = [
         cover: moiveo6,
         image: [moiveo1, moiveo2, moiveo3, moiveo4, moiveo5, moiveo6],
         title: "Moiveo: Your One-Stop for TV Entertainment",
-        description: "Moiveo is strictly for the movie/tv-show lovers. Moiveo relies heavily on the TMDB API. It showcases my ability to work deeply with data from an API—fetching, manipulating, and displaying it dynamically on the UI. I focused on crafting a fully responsive design, making sure the UI adapts smoothly to any screen size. I used Redux Toolkit for efficient state management, ensuring seamless data flow across the application. React Router came in handy for seamless navigation.",
+        description: "Moiveo is designed for movie and TV-show enthusiasts, built with a deep integration of the TMDB API. This project highlights my ability to work extensively with external APIs—fetching, manipulating, and dynamically displaying data in real-time. I focused on crafting a fully responsive design that adapts seamlessly across all screen sizes, ensuring an optimal user experience on any device. Leveraging Redux Toolkit, I implemented efficient state management for smooth data flow and scalability. React Router was integrated for seamless navigation across different views, enhancing the user journey within the app.",
         technologies: ["TailwindCSS", "ReactJS", "Axios"],
         demo: "https://moiveo-app.netlify.app/",
         github: "https://github.com/shiffydeen/Movie-App"
@@ -35,7 +35,7 @@ export const projectsData = [
         cover: udemy1,
         image: [udemy2, udemy3, udemy4, udemy5],
         title: "Udemy Clone - Custom Features Added",
-        description: "This Udemy clone mainly displays my ability to implement functionalities and component reusability. In this project, I added the Hoverable Cart Component, Dynamic Course Filtering, Toast Notification for item added and many more features. This project reflects my ability to bring practical, high-quality solutions to real-world web applications. Took a step back from TailwindCSS and used the Styled Component library for styling. Interact with the the Live Demo to get a better feel of these functionalities.",
+        description: "This project highlights my proficiency in implementing complex functionalities and ensuring efficient component reusability. Key features include a hoverable cart component for quick access to selected items, dynamic course filtering that enables users to sort courses by categories seamlessly, and a toast notification system that provides immediate feedback when items are added to the cart. Opting for the Styled Components library instead of Tailwind CSS allowed me to build modular, maintainable styles within the project. This clone reflects my ability to deliver practical, high-quality solutions for real-world web applications, ensuring both functionality and a smooth user experience. Explore the live demo for an interactive showcase of these features.",
         technologies: ["CSS", "ReactJS"],
         demo: "https://cdemy-upgrade.netlify.app/",
         github: "https://github.com/shiffydeen/udemy-clone"
@@ -44,7 +44,7 @@ export const projectsData = [
         cover: ciya1,
         image: [ciya11, ciya2, ciya3, ciya6, ciya4, ciya5],
         title: "Ciya Trips - Exploration Made Easy",
-        description: "Ciya Trips is a Travel Agency that takes away the hassle of trip planning. This project displays my ability to design beautiful, interactive and responsive UI to keep the visitor engaged. This project served as an opportunity to show Typescript skill. Seamless multi-page navigation was achieved using the React Router library. Other libraries were also used to achieve interactivity.",
+        description: "Ciya Trips is a travel agency platform designed to simplify trip planning. This project highlights my ability to design beautiful, interactive, and fully responsive user interfaces that captivate and engage visitors. Leveraging TypeScript ensured type safety, improved code quality, and minimized runtime errors during development. Seamless multi-page navigation was achieved using React Router, providing smooth transitions between pages. Additionally, various libraries were integrated to enhance interactivity, making the platform user-friendly and efficient.",
         technologies: ["TailwindCSS", "ReactJS", "TypeScript"],
         demo: "https://ciyaexploration.netlify.app/",
         github: "https://github.com/shiffydeen/Ciya-Trips"

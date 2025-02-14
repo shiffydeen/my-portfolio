@@ -19,7 +19,7 @@ const ProjectCard = ({project, openModal}) => {
     return (
         <ScrollReveal>
             <div id='projects' className='flex flex-col items-center gap-8 md:flex-row md:gap-20'>
-                <img src={project.cover} alt="" className='w-4/5 cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]' onClick={() => {openModal(project)}}/>
+                <img src={project.cover} alt="" className='w-4/5 cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px] ' onClick={() => {openModal(project)}}/>
                 <div className='flex flex-col gap-5'>
                     <div className='flex flex-col gap-3 items-start'>
                         <div className='text-xl font-semibold cursor-pointer' onClick={() => openModal(project)}>

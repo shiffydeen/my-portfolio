@@ -35,7 +35,7 @@ const Modal = ({closeModal, project, showModal}) => {
             </div>
             <div className='flex sm:flex-row flex-col flex-wrap gap-3'>
               <a href={project.demo} target='_blank'>
-                <button className="[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] p-3 rounded-md text-white font-semibold hover:shadow-2xl hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out border-2 border-[#63e] hover:border-white cursor-pointer hover:brightness-110">
+                <button className="[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] p-3 rounded-md text-white font-semibold hover:shadow-2xl hover:scale-105 active:scale-95 transition-all duration-100 ease-in-out border-2 border-[#63e] hover:border-white cursor-pointer hover:brightness-110">
                   Live Preview
                 </button>
               </a>

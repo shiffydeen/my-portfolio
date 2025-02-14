@@ -25,7 +25,7 @@ export const projectsData = [
         image: [moiveo1, moiveo2, moiveo3, moiveo4, moiveo5, moiveo6],
         title: "Moiveo: Your One-Stop for TV Entertainment",
         description: "Moiveo is strictly for the movie/tv-show lovers. Moiveo relies heavily on the TMDB API. It showcases my ability to work deeply with data from an API—fetching, manipulating, and displaying it dynamically on the UI. I focused on crafting a fully responsive design, making sure the UI adapts smoothly to any screen size. I used Redux Toolkit for efficient state management, ensuring seamless data flow across the application. React Router came in handy for seamless navigation.",
-        technologies: ["Tailwind", "React", "Axios"],
+        technologies: ["TailwindCSS", "ReactJS", "Axios"],
         demo: "https://moiveo-app.netlify.app/",
         github: "https://github.com/shiffydeen/Movie-App"
        
@@ -36,7 +36,7 @@ export const projectsData = [
         image: [udemy2, udemy3, udemy4, udemy5],
         title: "Udemy Clone - Custom Features Added",
         description: "This Udemy clone mainly displays my ability to implement functionalities and component reusability. In this project, I added the Hoverable Cart Component, Dynamic Course Filtering, Toast Notification for item added and many more features. This project reflects my ability to bring practical, high-quality solutions to real-world web applications. Took a step back from TailwindCSS and used the Styled Component library for styling. Interact with the the Live Demo to get a better feel of these functionalities.",
-        technologies: ["CSS", "React"],
+        technologies: ["CSS", "ReactJS"],
         demo: "https://cdemy-upgrade.netlify.app/",
         github: "https://github.com/shiffydeen/udemy-clone"
     },
@@ -45,7 +45,7 @@ export const projectsData = [
         image: [ciya11, ciya2, ciya3, ciya6, ciya4, ciya5],
         title: "Ciya Trips - Exploration Made Easy",
         description: "Ciya Trips is a Travel Agency that takes away the hassle of trip planning. This project displays my ability to design beautiful, interactive and responsive UI to keep the visitor engaged. This project served as an opportunity to show Typescript skill. Seamless multi-page navigation was achieved using the React Router library. Other libraries were also used to achieve interactivity.",
-        technologies: ["Tailwind", "React", "TypeScript"],
+        technologies: ["TailwindCSS", "ReactJS", "TypeScript"],
         demo: "https://ciyaexploration.netlify.app/",
         github: "https://github.com/shiffydeen/Ciya-Trips"
     },

@@ -28,20 +28,20 @@ const Modal = ({closeModal, project, showModal}) => {
             <p className='my-5 '>{project.description}</p>
             <div className='flex flex-wrap gap-5 my-5'>
                         {project.technologies.map((tech, index) => (
-                            <span key={index} className='rounded-lg bg-black p-2 border border-[#63e]'>
+                            <span key={index} className='rounded-lg bg-black px-3 border border-[#63e]'>
                                 {tech}
                             </span>
                         ))}
             </div>
             <div className='flex sm:flex-row flex-col flex-wrap gap-3'>
               <a href={project.demo} target='_blank'>
-                <button className="[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] p-2 rounded-md text-white font-light hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out border-2 border-transparent hover:border-[#63e] flex-1">
+                <button className="[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] p-3 rounded-md text-white font-semibold hover:shadow-2xl hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out border-2 border-[#63e] hover:border-white cursor-pointer hover:brightness-110">
                   Live Preview
                 </button>
               </a>
               
               <a href={project.github} target='_blank'>
-                <button className="[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] p-2 rounded-md text-white font-light hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out border-2 border-transparent hover:border-[#63e] flex-1"> <BsGithub className='inline mr-2' size={20}/> 
+                <button className="[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] p-3 rounded-md text-white font-semibold hover:shadow-2xl hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out border-2 border-[#63e] hover:border-white cursor-pointer hover:brightness-110"> <BsGithub className='inline mr-2' size={20}/> 
                 Source code
                 </button>
               </a>

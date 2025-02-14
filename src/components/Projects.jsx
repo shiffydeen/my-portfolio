@@ -26,11 +26,16 @@ const ProjectCard = ({project, openModal}) => {
                             {project.title}
                         </div>
                         <p className='text-gray-400 line-clamp-2'>{`${project.description}...`}</p>
-                        <button className="[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] p-3 rounded-md text-white font-semibold hover:shadow-xl hover:scale-105 transition-all duration-300 ease-in-out border-2 border-transparent hover:border-[#63e]" onClick={() => openModal(project)}>Project Info</button>
+                        <button 
+                            className="[background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] p-3 rounded-md text-white font-semibold hover:shadow-2xl hover:scale-105 active:scale-95 transition-all duration-300 ease-in-out border-2 border-[#63e] hover:border-white cursor-pointer hover:brightness-110"
+                            onClick={() => openModal(project)}
+                            >
+                            Project Info
+                        </button>
                     </div>
                     <div className='flex flex-wrap gap-5'>
                         {project.technologies.map((tech, index) => (
-                            <span key={index} className='rounded-lg bg-black p-3 border border-[#63e]'>
+                            <span key={index} className='rounded-lg bg-black px-3 border border-[#63e]'>
                                 {tech}
                             </span>
                         ))}

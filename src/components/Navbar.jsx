@@ -27,6 +27,9 @@ const Navbar = () => {
         <li>
             <a href="#contact" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Contact</a>
         </li>
+        <li>
+            <a href="https://docs.google.com/document/d/1cza1wEDGEyssv8sG6j7zjmGlK3M9Y_-S/edit?usp=sharing&ouid=103448139075573345897&rtpof=true&sd=true" target='_blank' className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Resume</a>
+        </li>
       </ul>
       <ul className='hidden md:flex gap-5'>
             <li className='cursor-pointer text-xl opacity-70 transition-all duration-300 hover:text-blue-500 hover:opacity-100'>
@@ -64,6 +67,9 @@ const Navbar = () => {
                     </li>
                     <li>
                         <a href="#contact" className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Contact</a>
+                    </li>
+                    <li>
+                        <a href="https://docs.google.com/document/d/1cza1wEDGEyssv8sG6j7zjmGlK3M9Y_-S/edit?usp=sharing&ouid=103448139075573345897&rtpof=true&sd=true" target='_blank' className='cursor-pointer opacity-70 transition-all duration-300 hover:opacity-100'>Resume</a>
                     </li>
                 </ul>
                 <ul className='flex flex-wrap gap-5'>

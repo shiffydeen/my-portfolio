@@ -19,7 +19,41 @@ import ciya4 from '../images/ciya-4.png';
 import ciya5 from '../images/ciya-5.png';
 import ciya6 from '../images/ciya-6.png';
 
+import oasis1 from '../images/oasis1.jpg';
+import oasis2 from '../images/oasis2.jpg';
+import oasis3 from '../images/oasis3.jpg';
+import oasis4 from '../images/oasis4.jpg';
+
+import pospadi from '../images/pospadi.jpg';
+import pospadi1 from '../images/pospadi1.jpg';
+import pospadi2 from '../images/pospadi2.jpg';
+import pospadi3 from '../images/pospadi3.jpg';
+
+
 export const projectsData = [
+    
+    {
+        cover: oasis1,
+        image: [oasis1, oasis2, oasis3, oasis4],
+        title: "The Wild Oasis: Welcome to Paradise",
+        description: "The Wild Oasis is a full-stack hotel booking platform where guests can explore available cabins, check availability, and book their stays in advance. Built with Next.js, Supabase, and Tailwind CSS, the app features a responsive interface and a seamless booking flow. Guests can securely log in, view cabin details, select preferred dates, and manage their reservations — all in one place.",
+        technologies: ["NextJS", "TailwindCSS", "Supabase"],
+        demo: "https://oasisthewild.netlify.app",
+        github: "https://github.com/shiffydeen/the-wild-oasis-website.git"
+       
+        
+    },
+    {
+        cover: pospadi,
+        image: [pospadi1, pospadi2, pospadi3],
+        title: "POS Padi",
+        description: "POS Padi is an MVP, a powerful point-of-sale transaction management system. Whether you’re a POS agent, business owner, or company managing multiple agents, POS-Padi helps you stay on top of your operations, reduce fraud using AI, and manage disputes, all from one place.",
+        technologies: ["React", "TypeScript", "ChakraUI", "Nodejs"],
+        demo: "https://pospadi.com.ng/",
+        github: "https://github.com/InternPulse/pos-padi-frontend"
+       
+        
+    },
     {
         cover: moiveo6,
         image: [moiveo1, moiveo2, moiveo3, moiveo4, moiveo5, moiveo6],

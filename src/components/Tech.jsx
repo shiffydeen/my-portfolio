@@ -1,6 +1,8 @@
 import React from 'react'
 import { BiLogoJavascript, BiLogoReact, BiLogoRedux, BiLogoSass, BiLogoTailwindCss, BiLogoTypescript } from 'react-icons/bi';
 import { motion } from 'framer-motion';
+import { RiNextjsFill, RiNextjsLine } from 'react-icons/ri';
+import { TbBrandNextjs } from 'react-icons/tb';
 
 const Tech = () => {
 
@@ -57,6 +59,14 @@ const Tech = () => {
             transition={{duration:0.5}}>  
                 <BiLogoTypescript className='cursor-pointer text-[80px] text-sky-500 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]'/>  
                 <h2 className='text-base font-light text-white md:text-md text-center'>TypeScript</h2>
+            </motion.div>  
+            <motion.div
+            variants={variants}
+            initial="hidden"
+            whileInView="visible"
+            transition={{duration:0.5}}>  
+                <RiNextjsLine className='cursor-pointer text-[80px] text-gray-400 transition-all duration-300 hover:-translate-y-5 sm:text-[100px] md:text-[120px]'/>  
+                <h2 className='text-base font-light text-white md:text-md text-center'>NextJs</h2>
             </motion.div>  
         </div>
     </div>

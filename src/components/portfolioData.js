@@ -38,7 +38,7 @@ export const projectsData = [
         title: "The Wild Oasis: Welcome to Paradise",
         description: "The Wild Oasis is a full-stack hotel booking platform where guests can explore available cabins, check availability, and book their stays in advance. Built with Next.js, Supabase, and Tailwind CSS, the app features a responsive interface and a seamless booking flow. Guests can securely log in, view cabin details, select preferred dates, and manage their reservations — all in one place.",
         technologies: ["NextJS", "TailwindCSS", "Supabase"],
-        demo: "https://oasisthewild.netlify.app",
+        demo: "https://the-wild-oasis-website-ten-teal.vercel.app/",
         github: "https://github.com/shiffydeen/the-wild-oasis-website.git"
        
         

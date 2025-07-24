@@ -23,17 +23,19 @@ import oasis1 from '../images/oasis1.jpg';
 import oasis2 from '../images/oasis2.jpg';
 import oasis3 from '../images/oasis3.jpg';
 import oasis4 from '../images/oasis4.jpg';
+import oasis5 from '../images/oasis5.png';
 
 import pospadi from '../images/pospadi.jpg';
 import pospadi1 from '../images/pospadi1.jpg';
 import pospadi2 from '../images/pospadi2.jpg';
 import pospadi3 from '../images/pospadi3.jpg';
+import pospadi4 from '../images/pospadi4.jpg';
 
 
 export const projectsData = [
     
     {
-        cover: oasis1,
+        cover: oasis5,
         image: [oasis1, oasis2, oasis3, oasis4],
         title: "The Wild Oasis: Welcome to Paradise",
         description: "The Wild Oasis is a full-stack hotel booking platform where guests can explore available cabins, check availability, and book their stays in advance. Built with Next.js, Supabase, and Tailwind CSS, the app features a responsive interface and a seamless booking flow. Guests can securely log in, view cabin details, select preferred dates, and manage their reservations — all in one place.",
@@ -44,7 +46,7 @@ export const projectsData = [
         
     },
     {
-        cover: pospadi,
+        cover: pospadi4,
         image: [pospadi1, pospadi2, pospadi3],
         title: "POS Padi",
         description: "POS Padi is an MVP, a powerful point-of-sale transaction management system. Whether you’re a POS agent, business owner, or company managing multiple agents, POS-Padi helps you stay on top of your operations, reduce fraud using AI, and manage disputes, all from one place.",

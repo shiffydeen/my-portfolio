@@ -31,9 +31,24 @@ import pospadi2 from '../images/pospadi2.jpg';
 import pospadi3 from '../images/pospadi3.jpg';
 import pospadi4 from '../images/pospadi4.jpg';
 
+import restaura1 from '../images/restaura1.png';
+import restaura11 from '../images/restaura11.png';
+import restaura2 from '../images/restaura2.png';
+import restaura3 from '../images/restaura3.png';
+import restaura4 from '../images/restaura4.png';
+
+
 
 export const projectsData = [
-    
+    {
+        cover: restaura1,
+        image: [restaura11, restaura2, restaura3, restaura4],
+        title: "Restaura",
+        description: "Fine Dining",
+        technologies: ["React", "TailwindCSS"],
+        demo: "https://restaura-mine.netlify.app/",
+        github: "https://github.com/shiffydeen/restaura-mine"
+    },
     {
         cover: oasis5,
         image: [oasis1, oasis2, oasis3, oasis4],
@@ -67,6 +82,15 @@ export const projectsData = [
        
         
     },
+     {
+        cover: ciya1,
+        image: [ciya11, ciya2, ciya3, ciya6, ciya4, ciya5],
+        title: "Ciya Trips - Exploration Made Easy",
+        description: "Ciya Trips is a travel agency platform designed to simplify trip planning. This project highlights my ability to design beautiful, interactive, and fully responsive user interfaces that captivate and engage visitors. Leveraging TypeScript ensured type safety, improved code quality, and minimized runtime errors during development. Seamless multi-page navigation was achieved using React Router, providing smooth transitions between pages. Additionally, various libraries were integrated to enhance interactivity, making the platform user-friendly and efficient.",
+        technologies: ["TailwindCSS", "ReactJS", "TypeScript"],
+        demo: "https://ciyaexploration.netlify.app/",
+        github: "https://github.com/shiffydeen/Ciya-Trips"
+    },
     {
         cover: udemy1,
         image: [udemy2, udemy3, udemy4, udemy5],
@@ -76,13 +100,5 @@ export const projectsData = [
         demo: "https://cdemy-upgrade.netlify.app/",
         github: "https://github.com/shiffydeen/udemy-clone"
     },
-    {
-        cover: ciya1,
-        image: [ciya11, ciya2, ciya3, ciya6, ciya4, ciya5],
-        title: "Ciya Trips - Exploration Made Easy",
-        description: "Ciya Trips is a travel agency platform designed to simplify trip planning. This project highlights my ability to design beautiful, interactive, and fully responsive user interfaces that captivate and engage visitors. Leveraging TypeScript ensured type safety, improved code quality, and minimized runtime errors during development. Seamless multi-page navigation was achieved using React Router, providing smooth transitions between pages. Additionally, various libraries were integrated to enhance interactivity, making the platform user-friendly and efficient.",
-        technologies: ["TailwindCSS", "ReactJS", "TypeScript"],
-        demo: "https://ciyaexploration.netlify.app/",
-        github: "https://github.com/shiffydeen/Ciya-Trips"
-    },
+   
 ]

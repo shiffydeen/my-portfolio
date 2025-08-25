@@ -21,7 +21,7 @@ const Hero = () => {
             className="flex w-[100vw] md:max-w-[800px] flex-col items-center justify-center gap-3 text-center">
                 <h1 className='bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl font-light md:text-7xl'>Aderombi Sheriff</h1>
                 <h3 className='bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl font-light md:text-3xl mb-4'>Frontend Developer</h3>
-                <p className='md:text-base text-pretty text-sm/5 text-gray-200 text-left mx-5'>
+                <p className='md:text-base text-pretty text-sm/5 text-gray-200 text-left mx-5 text-justify'>
                 I am a dedicated Frontend Developer with expertise in React, JavaScript, and TypeScript, complemented by a strong command of essential React libraries such as Redux Toolkit, React Router, and Axios. I take pride in crafting interactive, visually appealing web applications that offer seamless and engaging user experiences. My passion lies in brainstorming and implementing innovative functionalities, with a meticulous eye for detail and a solid foundation in modern frontend tools and best practices. Committed to writing clean, efficient, and maintainable code, I thrive on bringing designs to life and continuously expanding my knowledge to stay ahead of emerging trends in web development, delivering innovative solutions that meet user needs and business goals.
                 </p>
             </motion.div>

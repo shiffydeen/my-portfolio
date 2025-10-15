@@ -18,7 +18,7 @@ const Tech = () => {
         initial="hidden"
         whileInView="visible"
         transition={{duration:0.5}}
-        className='text-4xl font-light text-white md:text-6xl'>Technologies</motion.h1>
+        className='text-4xl font-light text-white md:text-6xl'>My Tech Stack</motion.h1>
         <div className="flex flex-wrap items-center justify-center gap-10 p-5"> 
             <motion.div
             variants={variants}

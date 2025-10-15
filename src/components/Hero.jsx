@@ -23,7 +23,7 @@ const Hero = () => {
                 <h1 className='bg-gradient-to-r from-blue-500 to-pink-500 bg-clip-text text-transparent text-5xl font-light md:text-7xl'>Aderombi Sheriff</h1>
                 <h3 className='bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent text-2xl font-light md:text-3xl mb-4'>Frontend Developer</h3>
                 <p className='md:text-base text-pretty text-sm/5 text-gray-200 text-left mx-5 text-justify'>
-                I am a frontend developer with a strong focus on building modern, user-centric web applications using React, Next.js, JavaScript, and TypeScript. I combine technical expertise with an eye for design, leveraging UI frameworks such as Tailwind CSS and Styled Components to craft responsive, performant, and visually engaging interfaces. Beyond writing clean, maintainable code, I thrive on solving complex UI challenges, optimizing user flows, and bringing ideas from concept to polished product. Driven by curiosity and continuous learning, I stay ahead of emerging trends to deliver solutions that not only meet business goals but also elevate the user experience.
+                I’m a frontend developer passionate about building intuitive, high-quality web experiences. I specialize in crafting responsive and performant applications that blend clean design with smooth functionality. With a strong focus on problem-solving and continuous learning, I enjoy turning ideas into engaging digital products that deliver real value to users and businesses alike.
                 </p>
             </motion.div>
         </div>
